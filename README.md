@@ -7,6 +7,10 @@ _Overwrite default and User settings_
 
 ```
 {
+  "window.zoomLevel": 0,
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+  "editor.formatOnPaste": false,
+  "editor.wordWrap": "on",
   "editor.snippetSuggestions": "top"
 }
 ```
