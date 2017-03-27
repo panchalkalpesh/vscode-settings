@@ -23,7 +23,11 @@ _User defined key bindings_
 [
 { "key": "ctrl+shift+a", "command": "HookyQR.beautify", "when": "editorFocus" },
 { "key": "ctrl+shift+w", "command":"editor.emmet.action.wrapWithAbbreviation", "when": "editorFocus" },
-{ "key": "ctrl+shift+/", "command": "editor.action.blockComment", "when": "editorTextFocus && !editorReadonly" }
+{ "key": "ctrl+shift+/", "command": "editor.action.blockComment", "when": "editorTextFocus && !editorReadonly" },
+{ "key": "ctrl+shift+v", "command": "editor.action.clipboardPasteAction", "when": "editorTextFocus && !editorReadonly" },
+{ "key": "ctrl+shift+l", "command": "editor.action.insertCursorAtEndOfEachLineSelected", "when": "editorTextFocus" },
+{ "key": "ctrl+k u", "command": "editor.action.transformToUppercase", "when": "editorTextFocus" },
+{ "key": "ctrl+k l", "command": "editor.action.transformToLowercase", "when": "editorTextFocus" }
 ]
 
 ```
