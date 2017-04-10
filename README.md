@@ -11,7 +11,8 @@ _Overwrite default and User settings_
   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
   "editor.formatOnPaste": false,
   "editor.wordWrap": "on",
-  "editor.snippetSuggestions": "top"
+  "editor.snippetSuggestions": "top",
+  "workbench.editor.enablePreview": true
 }
 ```
 
