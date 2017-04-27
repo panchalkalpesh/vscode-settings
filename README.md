@@ -12,6 +12,13 @@ _Overwrite default and User settings_
   "editor.formatOnPaste": false,
   "editor.wordWrap": "on",
   "editor.snippetSuggestions": "top",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
   "workbench.editor.enablePreview": true
 }
 ```
