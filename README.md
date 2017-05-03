@@ -36,7 +36,9 @@ _User defined key bindings_
 { "key": "ctrl+shift+l", "command": "editor.action.insertCursorAtEndOfEachLineSelected", "when": "editorTextFocus" },
 { "key": "ctrl+k u", "command": "editor.action.transformToUppercase", "when": "editorTextFocus" },
 { "key": "ctrl+k l", "command": "editor.action.transformToLowercase", "when": "editorTextFocus" },
-{ "key": "ctrl+l", "command": "workbench.action.gotoSymbol" }
+{ "key": "ctrl+l", "command": "workbench.action.gotoSymbol" },
+{ "key": "ctrl+shift+o", "command": "workbench.action.gotoSymbol" },
+{ "key": "f7", "command": "workbench.action.navigateEditorGroups" }
 ]
 
 ```
