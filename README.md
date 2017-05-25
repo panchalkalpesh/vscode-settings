@@ -38,7 +38,8 @@ _User defined key bindings_
 { "key": "ctrl+k l", "command": "editor.action.transformToLowercase", "when": "editorTextFocus" },
 { "key": "ctrl+l", "command": "workbench.action.gotoSymbol" },
 { "key": "ctrl+shift+o", "command": "workbench.action.gotoSymbol" },
-{ "key": "f7", "command": "workbench.action.navigateEditorGroups" }
+{ "key": "f7", "command": "workbench.action.navigateEditorGroups" },
+{ "key": "ctrl+k ctrl+m", "command": "workbench.action.editor.changeLanguageMode" }
 ]
 
 ```
