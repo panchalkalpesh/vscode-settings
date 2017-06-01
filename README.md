@@ -17,7 +17,8 @@ _Overwrite default and User settings_
     "**/.svn": true,
     "**/.hg": true,
     "**/.DS_Store": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/bower_components": true
   },
   "workbench.editor.enablePreview": true
 }
