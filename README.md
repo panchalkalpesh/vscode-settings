@@ -20,7 +20,11 @@ _Overwrite default and User settings_
     "**/node_modules": true,
     "**/bower_components": true
   },
-  "workbench.editor.enablePreview": true
+  "workbench.editor.enablePreview": true,
+  
+  // Enable Font Ligatures
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true
 }
 ```
 
