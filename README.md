@@ -24,7 +24,10 @@ _Overwrite default and User settings_
   
   // Enable Font Ligatures
   "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  
+  // File explorer sort order (requires vscode ^1.15.0)
+  "explorer.sortOrder": "type" // filesFirst | mixed | modified | type
 }
 ```
 
