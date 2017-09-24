@@ -21,6 +21,8 @@ _Overwrite default and User settings_
     "**/bower_components": true
   },
   "workbench.editor.enablePreview": true,
+  "workbench.activityBar.visible": true,
+
   
   // Enable Font Ligatures
   "editor.fontFamily": "Fira Code",
