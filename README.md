@@ -16,6 +16,7 @@ _Overwrite default and User settings_
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
+    "**/CVS": true,
     "**/.DS_Store": true,
     "**/node_modules": true,
     "**/bower_components": true
