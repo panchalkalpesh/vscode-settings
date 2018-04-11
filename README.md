@@ -24,6 +24,8 @@ _Overwrite default and User settings_
   "workbench.editor.enablePreview": true,
   "workbench.activityBar.visible": true,
 
+  // Enable / Disable Telemetry Reporting
+  "telemetry.enableTelemetry": false  
   
   // Enable Font Ligatures
   "editor.fontFamily": "Fira Code",
@@ -31,6 +33,7 @@ _Overwrite default and User settings_
   
   // File explorer sort order (requires vscode ^1.15.0)
   "explorer.sortOrder": "type" // filesFirst | mixed | modified | type
+
 }
 ```
 
