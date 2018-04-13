@@ -25,14 +25,25 @@ _Overwrite default and User settings_
   "workbench.activityBar.visible": true,
 
   // Enable / Disable Telemetry Reporting
-  "telemetry.enableTelemetry": false  
+  "telemetry.enableTelemetry": false,
   
   // Enable Font Ligatures
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   
   // File explorer sort order (requires vscode ^1.15.0)
-  "explorer.sortOrder": "type" // filesFirst | mixed | modified | type
+  "explorer.sortOrder": "type", // filesFirst | mixed | modified | type
+  
+  
+  # Extension Configurations
+  # wayou.vscode-todo-highlight
+  "todohighlight.keywords": [
+        {
+            "text": "DONE:",
+            "color": "#ffffff",
+            "backgroundColor": "green"
+        }
+    ]
 
 }
 ```
