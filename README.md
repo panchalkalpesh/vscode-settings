@@ -64,7 +64,11 @@ _User defined key bindings_
 { "key": "ctrl+l", "command": "workbench.action.gotoSymbol" },
 { "key": "ctrl+shift+o", "command": "workbench.action.gotoSymbol" },
 { "key": "f7", "command": "workbench.action.navigateEditorGroups" },
-{ "key": "ctrl+k ctrl+m", "command": "workbench.action.editor.changeLanguageMode" }
+{ "key": "ctrl+k ctrl+m", "command": "workbench.action.editor.changeLanguageMode" },
+{ "key": "shift+alt+left", "command": "editor.action.smartSelect.grow", "when": "editorTextFocus" },
+{ "key": "shift+alt+right", "command": "-editor.action.smartSelect.grow", "when": "editorTextFocus" },
+{ "key": "shift+alt+right", "command": "editor.action.smartSelect.shrink", "when": "editorTextFocus" },
+{ "key": "shift+alt+left", "command": "-editor.action.smartSelect.shrink", "when": "editorTextFocus" }
 ]
 
 ```
