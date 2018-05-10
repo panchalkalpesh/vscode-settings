@@ -34,6 +34,10 @@ _Overwrite default and User settings_
   // File explorer sort order (requires vscode ^1.15.0)
   "explorer.sortOrder": "type", // filesFirst | mixed | modified | type
   
+  // IndentGuide color customization (requires vscode ^1.23.0)
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#aaa"
+  },  
   
   # Extension Configurations
   # wayou.vscode-todo-highlight
