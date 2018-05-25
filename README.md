@@ -46,6 +46,11 @@ _Overwrite default and User settings_
             "text": "DONE:",
             "color": "#ffffff",
             "backgroundColor": "green"
+        },
+        {
+            "text": "BACKLOG:",
+            "color": "#ffffff",
+            "backgroundColor": "gray"
         }
     ]
 
