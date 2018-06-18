@@ -77,7 +77,8 @@ _User defined key bindings_
 { "key": "shift+alt+left", "command": "editor.action.smartSelect.grow", "when": "editorTextFocus" },
 { "key": "shift+alt+right", "command": "-editor.action.smartSelect.grow", "when": "editorTextFocus" },
 { "key": "shift+alt+right", "command": "editor.action.smartSelect.shrink", "when": "editorTextFocus" },
-{ "key": "shift+alt+left", "command": "-editor.action.smartSelect.shrink", "when": "editorTextFocus" }
+{ "key": "shift+alt+left", "command": "-editor.action.smartSelect.shrink", "when": "editorTextFocus" },
+{ "key": "ctrl+shift+`", "command": "workbench.action.terminal.toggleTerminal" }
 ]
 
 ```
