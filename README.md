@@ -39,8 +39,13 @@ _Overwrite default and User settings_
     "editorIndentGuide.activeBackground": "#aaa"
   },  
   
-  # Terminal Configurations
+  // Terminal Configurations
   "terminal.integrated.fontWeight": "100",
+  
+  // Additional Terminal Configurations
+  // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
+  // "terminal.integrated.fontFamily": "",
+  
   
   # Extension Configurations
   # wayou.vscode-todo-highlight
