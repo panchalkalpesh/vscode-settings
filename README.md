@@ -39,6 +39,9 @@ _Overwrite default and User settings_
     "editorIndentGuide.activeBackground": "#aaa"
   },  
   
+  # Terminal Configurations
+  "terminal.integrated.fontWeight": "100",
+  
   # Extension Configurations
   # wayou.vscode-todo-highlight
   "todohighlight.keywords": [
