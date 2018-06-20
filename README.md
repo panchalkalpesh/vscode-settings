@@ -45,6 +45,12 @@ _Overwrite default and User settings_
   // Additional Terminal Configurations
   // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
   // "terminal.integrated.fontFamily": "",
+  // Controls the font size in pixels of the terminal.
+  // "terminal.integrated.fontSize": 14,
+  // The font weight to use within the terminal for non-bold text.
+  // "terminal.integrated.fontWeight": "normal",
+  // The font weight to use within the terminal for bold text.
+  // "terminal.integrated.fontWeightBold": "bold",
   
   
   # Extension Configurations
