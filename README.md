@@ -51,7 +51,10 @@ _Overwrite default and User settings_
   // "terminal.integrated.fontWeight": "normal",
   // The font weight to use within the terminal for bold text.
   // "terminal.integrated.fontWeightBold": "bold",
-  
+  // Controls the letter spacing of the terminal, this is an integer value which represents the amount of additional pixels to add between characters.
+  // "terminal.integrated.letterSpacing": 0,
+  // Controls the line height of the terminal, this number is multiplied by the terminal font size to get the actual line-height in pixels.
+  // "terminal.integrated.lineHeight": 1,
   
   # Extension Configurations
   # wayou.vscode-todo-highlight
