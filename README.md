@@ -69,7 +69,12 @@ _Overwrite default and User settings_
             "color": "#ffffff",
             "backgroundColor": "gray"
         }
-    ]
+    ],
+
+  # Editor actions on save
+  "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+  }
 
 }
 ```
