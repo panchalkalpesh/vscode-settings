@@ -42,7 +42,9 @@ _Overwrite default and User settings_
   # Indentation
   "editor.autoIndent": true,
   "editor.detectIndentation": true,
-
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  
   
   // Terminal Configurations
   "terminal.integrated.fontWeight": "100",
