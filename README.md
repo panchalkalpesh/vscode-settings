@@ -39,6 +39,11 @@ _Overwrite default and User settings_
     "editorIndentGuide.activeBackground": "#aaa"
   },  
   
+  # Indentation
+  "editor.autoIndent": true,
+  "editor.detectIndentation": true,
+
+  
   // Terminal Configurations
   "terminal.integrated.fontWeight": "100",
   
