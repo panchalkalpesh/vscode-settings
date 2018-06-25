@@ -111,3 +111,27 @@ _User defined key bindings_
 ]
 
 ```
+
+
+---
+
+
+## Cmder shell in VSCode terminal (Windows only)
+
+**Step 1. Create a `vscode.bat` to your Cmder path**
+
+```
+@echo off
+SET CurrentWorkingDirectory=%CD%
+SET CMDER_ROOT=C:\cmder // (path to cmder)
+CALL "%CMDER_ROOT%\vendor\init.bat"
+CD /D %CurrentWorkingDirectory%
+```
+
+**Step 2. Add the following to `settings.json`**
+
+```
+"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+"terminal.integrated.shellArgs.windows": ["/K", "C:\\cmder\\vscode.bat"]
+```
+
