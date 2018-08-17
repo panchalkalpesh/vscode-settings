@@ -45,7 +45,11 @@ _Overwrite default and User settings_
   "editor.tabSize": 2,
   "editor.insertSpaces": false,
   
-  
+
+  # Breadcrumbs (requires vscode ^1.26.1)
+  "breadcrumbs.enabled": true,
+
+    
   // Terminal Configurations
   "terminal.integrated.fontWeight": "100",
   
