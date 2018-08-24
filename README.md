@@ -39,6 +39,10 @@ _Overwrite default and User settings_
     "editorIndentGuide.activeBackground": "#aaa"
   },  
   
+  # Disable centerLayout in Zen Mode
+  "zenMode.centerLayout": false,
+
+  
   # Indentation
   "editor.autoIndent": true,
   "editor.detectIndentation": true,
