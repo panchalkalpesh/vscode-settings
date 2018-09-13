@@ -39,6 +39,11 @@ _Overwrite default and User settings_
     "editorIndentGuide.activeBackground": "#aaa"
   },  
   
+  
+  // Preserve files after deletion (default: false) (requires vscode ^1.27)
+  "workbench.editor.closeOnFileDelete": false
+
+
   # Disable centerLayout in Zen Mode
   "zenMode.centerLayout": false,
 
