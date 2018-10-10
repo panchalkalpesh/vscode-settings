@@ -90,6 +90,11 @@ _Overwrite default and User settings_
             "backgroundColor": "gray"
         }
     ],
+    
+  # Enable Tab completion (requires vscode ^1.28.0)
+  # Feature: pressing Tab will insert the next suggestion and Shift+Tab will insert the previous suggestion
+  "editor.tabCompletion": "on",
+
 
   # Editor actions on save
   "editor.codeActionsOnSave": {
